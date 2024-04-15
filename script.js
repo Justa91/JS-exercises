@@ -239,11 +239,52 @@
 // Zadanie 2
 // Napisz kod, wstawi suwak o zakresie 0 do 100 z id="suwak" wartość domyślna 0. Pod suwakiem w div id="liczba" ma się wyświetlać aktualnie ustawiona wartość.
 
-let suwak = document.getElementById("suwak");
-let liczba = document.getElementById("liczba");
+// let suwak = document.getElementById("suwak");
+// let liczba = document.getElementById("liczba");
 
-suwak.addEventListener("input", handleInput);
+// suwak.addEventListener("input", handleInput);
 
-function handleInput() {
-  liczba.innerHTML = suwak.value;
-}
+// function handleInput() {
+//   liczba.innerHTML = suwak.value;
+// }
+//-----------------------------------------------------
+
+//------------------------------this, metoda .querySelectorAll(), pętla for-of------------------------------------------------------
+
+// Zadanie 1
+// Napisz kod, który wyświetli trzy przyciski, podpisane jeden, dwa, trzy. Kliknięcie na każdy z nich ma wyświetlić napis, kliknąłeś na przycisk.
+
+// let przyciski = document.querySelectorAll("button");
+
+// for (const value of przyciski) {
+//   value.addEventListener("click", function handleEvent() {
+//     switch (value.id) {
+//       case "jeden":
+//         alert("Kliknąłeś przycisk 1");
+//         break;
+//       case "dwa":
+//         alert("KLiknąłeś przycisk 2");
+//         break;
+//       case "trzy":
+//         alert("Kliknąłeś przycisk 3");
+//         break;
+//     }
+//   });
+// }
+//--------------------------------------------------------
+
+// Zadanie 2
+// Utwórz 3 elementy, przycisk z id="przycisk", div-a z id="element_div" i span z id="element_span". Kliknięcie na którykolwiek z nich ma wypisywać identyfikator klikniętego elementu do utworzonego div-a z id="opis". Użyj this.
+
+// const przyciski = document.querySelectorAll(".elements");
+// const opis = document.getElementById("opis");
+
+// for (const value of przyciski) {
+//   value.addEventListener("click", function () {
+//     opis.innerHTML = this.id;
+//   });
+// }
+
+//........................................Obsługa zdarzeń cz. II, elementy formularzy---------------------------
+// Zadanie 1
+// Napisz kod, który po naciśnięciu przycisku z podpisem Pokaż. Przepisze wartość z pola tekstowego type="number" do div id="wynik". Liczbę wypisz jako nagłówek 1 stopnia. Sprawdź w konsoli typ odczytanej wartości.
