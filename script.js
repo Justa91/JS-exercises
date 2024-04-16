@@ -259,6 +259,7 @@
 // for (const value of przyciski) {
 //   value.addEventListener("click", function handleEvent() {
 //     switch (value.id) {
+
 //       case "jeden":
 //         alert("Kliknąłeś przycisk 1");
 //         break;
@@ -288,3 +289,17 @@
 //........................................Obsługa zdarzeń cz. II, elementy formularzy---------------------------
 // Zadanie 1
 // Napisz kod, który po naciśnięciu przycisku z podpisem Pokaż. Przepisze wartość z pola tekstowego type="number" do div id="wynik". Liczbę wypisz jako nagłówek 1 stopnia. Sprawdź w konsoli typ odczytanej wartości.
+
+// const button = document.getElementById("button");
+// const wynik = document.getElementById("wynik");
+// button.addEventListener("click", handleEvent);
+
+// function handleEvent() {
+//   const number = document.getElementById("liczba").value;
+//   wynik.innerHTML = `<h1>${number}</h1>`;
+//   console.log(typeof number);
+// }
+//---------------------------------------------
+
+// Zadanie 2
+// Jak wyżej. Zmodyfikuj kod tak by wypisywała się 2 potęga wpisanej liczby.
