@@ -303,3 +303,20 @@
 
 // Zadanie 2
 // Jak wyżej. Zmodyfikuj kod tak by wypisywała się 2 potęga wpisanej liczby.
+
+// const numer = document.getElementById("numer");
+// const przycisk = document.getElementById("przycisk");
+// const wynik = document.getElementById("wynik");
+
+// przycisk.addEventListener("click", handleEvent);
+
+// function handleEvent() {
+//   console.log(typeof numer.value);
+//   const potegaLiczby = numer.value * numer.value;
+//   wynik.innerHTML = `<h1>${Number(potegaLiczby)}</h1>`;
+//   console.log(typeof potegaLiczby);
+// }
+//-------------------------------------------------------------
+
+// Zadanie 3
+// Utwórz prosty "dodawacz" liczb, który będzie wyglądał w sposób następujący:
