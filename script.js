@@ -320,3 +320,40 @@
 
 // Zadanie 3
 // Utwórz prosty "dodawacz" liczb, który będzie wyglądał w sposób następujący:
+// const numer1 = document.getElementById("numer1");
+// const numer2 = document.getElementById("numer2");
+// const rownaSie = document.getElementById("rownaSie");
+// const wynik = document.getElementById("wynik");
+
+// rownaSie.addEventListener("click", handleEvent);
+
+// function handleEvent() {
+//   wynik.innerHTML = parseFloat(numer1.value) + parseFloat(numer2.value);
+// }
+// --------------------------------------------------------------
+
+// Zadanie 4
+//Utwórz listę select z nazwami pasm górskich, wybranie danego pasma ma wyswietlać nazwę i wysokość najwyższego szczytu.
+
+// const opcja = document.getElementsByClassName("opcja");
+// const wynik = document.getElementById("wynik");
+
+// const szczyty = document.getElementById("szczyty");
+
+// szczyty.addEventListener("input", handleEvent);
+
+// function handleEvent() {
+//   wynik.innerHTML = `Najwyższy szczyt: ${szczyty.value}`;
+// }
+//-------------------------------------------------------------------
+
+// Zadanie 5
+// Utwórz listę select z nazwami pasm górskich i ich najwyższych, szczytów. Wybranie danego pasma ma wyswietlać zdjęcie danego pliku. Są to pliki: babia.jpg, rysy.jpg, sniezka.jpg i wybierz.jpg.
+// const szczyty = document.getElementById("szczyty");
+// const wynik = document.getElementById("wynik");
+
+// szczyty.addEventListener("input", handleEvent);
+
+// function handleEvent() {
+//   wynik.innerHTML = `<img src="${szczyty.value}">`;
+// }
